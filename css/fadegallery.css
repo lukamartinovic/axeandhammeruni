@@ -1,12 +1,11 @@
 #fadegallery{
-  float: right;
   height: 463px;
-  width: 700px;
+  width: 1000px;
   overflow: hidden;
 }
 
 #fadegallerywrapper{
-  width: 2300px;
+  width: 3000px;
   animation: slide;
 }
 

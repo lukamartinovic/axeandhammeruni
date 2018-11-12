@@ -41,21 +41,27 @@
 }
 
 #contactform form>* {
-
-  margin-bottom: 15px;
   border: none;
   padding: 5px;
   border-radius: 5px;
 }
 
+#contactform form p {
+  margin-bottom: 10px;
+}
+
 #contactform input {
+
+  border-bottom: 3px solid #efefef;
   width: 95%;
   margin: 0 auto;
+  margin-bottom: -10px;
   display: block;
   font-family: 'Roboto', sans-serif;
 }
 
 #contactform textarea{
+  border-bottom: 3px solid #efefef;
   margin: 0 auto;
   display: block;
   width: 95%;

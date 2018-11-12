@@ -82,8 +82,7 @@ div {
 }
 
 #wrapper {
-  border-left: 2px solid #ebebeb;
-  border-right: 2px solid #ebebeb;
+  height: 100%;
   width: 1000px;
   margin: 0 auto;
 }
@@ -153,6 +152,23 @@ div {
 }
 
 #content {
-  border-right: 2px solid #ebebeb;
-  float: left;
+  margin: 0 auto;
+}
+
+
+#wrapper h2{
+  position: absolute;
+  display: block;
+  color: white;
+  background-color: #1971b0;
+  padding: 15px;
+}
+
+#hometext{
+  text-align: justify;
+  font-size: 20px;
+  margin-top: 50px;
+  padding: 20px 0px;
+  border-top: 2px solid #1971b0;
+  border-bottom: 2px solid #1971b0;
 }
