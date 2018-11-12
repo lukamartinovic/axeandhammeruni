@@ -1,0 +1,45 @@
+.contentcolumn img {
+  transition: 0.2s ease-in-out;
+  width: 180px;
+  margin-bottom: 10px;
+}
+
+.contentcolumn h4{
+  text-align: center;
+  height: 30px;
+  font-size: 14px;
+}
+
+.contentrow{
+  margin: 10px 0;
+}
+
+.contentcolumn{
+  margin-left: 30px;
+  display: inline;
+  float: left;
+  height: 150px;
+  overflow: hidden;
+  transition: 0.2s ease-in-out;
+
+
+  border-radius: 5px;
+  border: 1px solid #efefef;
+  border-bottom: 3px solid #efefef;
+}
+
+.contentcolumn:hover{
+  color: #1971b0;
+}
+
+
+.contentcolumn img:hover{
+  filter: opacity(0.9);
+  transition: 0.2s ease-in-out;
+}
+
+#gallery{
+  margin: 40px 0;
+  width: 700px;
+  display: block;
+}

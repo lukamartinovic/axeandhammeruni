@@ -1,0 +1,36 @@
+#fadegallery{
+  float: right;
+  height: 463px;
+  width: 700px;
+  overflow: hidden;
+}
+
+#fadegallerywrapper{
+  width: 2300px;
+  animation: slide;
+}
+
+#fadegallery img{
+  position: absolute;
+  animation-name: fade;
+  animation-iteration-count: infinite;
+  animation-duration: 24s;
+}
+
+#img1{
+
+}
+#img2{
+  animation-delay: -16s;
+}
+#img3{
+  animation-delay: -8s;
+}
+
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
