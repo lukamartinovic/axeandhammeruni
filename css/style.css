@@ -142,8 +142,7 @@ div {
   padding: 0.5em 0;
   background: #fafafa;
 
-  position: fixed;
-  bottom: 0;
+  margin-top: 200px;
 
 }
 
@@ -156,8 +155,10 @@ div {
 }
 
 
-#wrapper h2{
-  position: absolute;
+#homeheading{
+	position: absolute;
+
+	margin-top: -50px;
   display: block;
   color: white;
   background-color: #1971b0;
